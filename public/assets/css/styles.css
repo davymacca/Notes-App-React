@@ -1,0 +1,61 @@
+/* Base */
+html,
+body {
+    height: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* Layout */
+.navigation {
+    height: 15%;
+    padding: 20px;
+    border-bottom: solid 1px #666;
+}
+
+
+
+.main {
+    padding: 20px;
+    width: 70%;
+    height: 85%;
+    float: left;
+    position: relative;
+}
+.main-controls {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+    height: 85%;
+    position: relative;
+    float: left;
+    border-left: solid 1px #e0e0e0;
+}
+.sidebar-items {
+    cursor: pointer;
+}
+.sidebar-controls {
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+.text-large {
+    font-size: 20px;
+}
