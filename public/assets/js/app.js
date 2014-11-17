@@ -8,7 +8,6 @@
         { id: 0, name: 'Note 1', text: 'Hello "HMTL"' }
     ];
     var counter = dataStore.length;
-    var tempCurrentNotes = '';
 
     function getAllData() {
         return dataStore;
