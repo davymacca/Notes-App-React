@@ -70,8 +70,7 @@
         },
 
         render: function () {
-            var cx = React.addons.classSet;
-            var classes = cx({
+            var classes = classNames({
                 'btn btn-lg btn-primary': true,
                 'btn-danger': !this.props.isSaved
             });
